@@ -1,41 +1,66 @@
 function Services() {
   return (
-    <section id="services" className="py-16">
+    <section
+      id="services"
+      className="py-16 px-4 md:px-8 border-b-2 border-t-2 border-amber-300"
+    >
       <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-semibold mb-8">Our Services</h2>
-        <div className="grid md:grid-cols-3 gap-8">
-          <div className="bg-white shadow-lg rounded-lg p-6">
-            <h3 className="text-xl font-semibold mb-4">Fullstack Developer</h3>
+        <h2 className="text-4xl font-semibold mb-8 text-white">Our Services</h2>
+
+        {/* Grid untuk layanan */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 justify-center mx-auto max-w-8xl">
+          {/* Layanan 1 */}
+          <div className="bg-white shadow-lg rounded-lg p-6 border-3 border-indigo-700 hover:scale-105 hover:shadow-xl hover:border-indigo-500 transition-all duration-300 transform">
+            <h3 className="text-xl font-semibold mb-4 text-blue-700">
+              Web & App Development
+            </h3>
             <p className="text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              sodales ornare aliquet.
             </p>
           </div>
-          <div className="bg-white shadow-lg rounded-lg p-6">
-            <h3 className="text-xl font-semibold mb-4">Frontend Developer</h3>
+
+          {/* Layanan 2 */}
+          <div className="bg-white shadow-lg rounded-lg p-6 border-3 border-indigo-700 hover:scale-105 hover:shadow-xl hover:border-indigo-500 transition-all duration-300 transform">
+            <h3 className="text-xl font-semibold mb-4 text-blue-700">
+              UI/UX Design
+            </h3>
             <p className="text-gray-600">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore.
+              Etiam sed eros eu magna sollicitudin cursus ac eu est. Maecenas
+              dignissim velit mi, sit amet finibus nulla tristique at.
             </p>
           </div>
-          <div className="bg-white shadow-lg rounded-lg p-6">
-            <h3 className="text-xl font-semibold mb-4">Backend Developer</h3>
+
+          {/* Layanan 3 */}
+          <div className="bg-white shadow-lg rounded-lg p-6 border-3 border-indigo-700 hover:scale-105 hover:shadow-xl hover:border-indigo-500 transition-all duration-300 transform">
+            <h3 className="text-xl font-semibold mb-4 text-blue-700">
+              API & Backend Development
+            </h3>
             <p className="text-gray-600">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim.
+              Aenean vehicula leo lacinia tempor ornare. Cras tempus ac dui ac
+              pellentesque.
             </p>
           </div>
-          <div className="bg-white shadow-lg rounded-lg p-6">
-            <h3 className="text-xl font-semibold mb-4">UI Designer</h3>
+
+          {/* Layanan 4 */}
+          <div className="bg-white shadow-lg rounded-lg p-6 border-3 border-indigo-700 hover:scale-105 hover:shadow-xl hover:border-indigo-500 transition-all duration-300 transform">
+            <h3 className="text-xl font-semibold mb-4 text-blue-700">
+              Maintenance & Support
+            </h3>
             <p className="text-gray-600">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim.
+              Praesent porta mauris in urna pharetra, sit amet vehicula elit
+              cursus. Proin eget augue vel urna luctus viverra id nec odio.
             </p>
           </div>
-          <div className="bg-white shadow-lg rounded-lg p-6">
-            <h3 className="text-xl font-semibold mb-4">UX Designer</h3>
+
+          {/* Layanan 5 */}
+          <div className="bg-white shadow-lg rounded-lg p-6 border-3 border-indigo-700 hover:scale-105 hover:shadow-xl hover:border-indigo-500 transition-all duration-300 transform">
+            <h3 className="text-xl font-semibold mb-4 text-blue-700">
+              Custom Solutions
+            </h3>
             <p className="text-gray-600">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim.
+              Vivamus dictum quis dui vitae finibus. Praesent quam est,
+              scelerisque eu odio at, feugiat hendrerit diam.
             </p>
           </div>
         </div>
