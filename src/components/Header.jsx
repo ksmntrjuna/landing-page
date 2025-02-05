@@ -10,6 +10,11 @@ function Header() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  // Fungsi untuk menutup menu setelah item diklik
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <header className="py-4">
       <div className="container mx-auto flex justify-between items-center px-4">
@@ -97,12 +102,13 @@ function Header() {
 
       {/* Menu dropdown untuk perangkat kecil */}
       {isMenuOpen && (
-        <nav className="md:hidden bg-white text-center py-4">
+        <nav className="md:hidden bg-transpatent from-indigo-500 to-teal-400 text-center py-4 border-2 border-white">
           <ul>
             <li>
               <a
                 href="#about"
-                className="block py-2 text-black hover:text-indigo-500 transition duration-300"
+                className="block py-2 text-white hover:text-indigo-500 transition duration-300"
+                onClick={closeMenu} // Menutup menu setelah klik
               >
                 About
               </a>
@@ -110,7 +116,8 @@ function Header() {
             <li>
               <a
                 href="#services"
-                className="block py-2 text-black hover:text-indigo-500 transition duration-300"
+                className="block py-2 text-white hover:text-indigo-500 transition duration-300"
+                onClick={closeMenu} // Menutup menu setelah klik
               >
                 Services
               </a>
@@ -118,7 +125,8 @@ function Header() {
             <li>
               <a
                 href="#pricing"
-                className="block py-2 text-black hover:text-indigo-500 transition duration-300"
+                className="block py-2 text-white hover:text-indigo-500 transition duration-300"
+                onClick={closeMenu} // Menutup menu setelah klik
               >
                 Pricing
               </a>
@@ -126,7 +134,8 @@ function Header() {
             <li>
               <a
                 href="#portfolio"
-                className="block py-2 text-black hover:text-indigo-500 transition duration-300"
+                className="block py-2 text-white hover:text-indigo-500 transition duration-300"
+                onClick={closeMenu} // Menutup menu setelah klik
               >
                 Portfolio
               </a>
@@ -134,7 +143,8 @@ function Header() {
             <li>
               <a
                 href="#testimonials"
-                className="block py-2 text-black hover:text-indigo-500 transition duration-300"
+                className="block py-2 text-white hover:text-indigo-500 transition duration-300"
+                onClick={closeMenu} // Menutup menu setelah klik
               >
                 Testimonial
               </a>
@@ -142,7 +152,8 @@ function Header() {
             <li>
               <a
                 href="#contact"
-                className="block py-2 text-black hover:text-indigo-500 transition duration-300"
+                className="block py-2 text-white hover:text-indigo-500 transition duration-300"
+                onClick={closeMenu} // Menutup menu setelah klik
               >
                 Contact
               </a>
