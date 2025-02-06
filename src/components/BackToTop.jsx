@@ -26,7 +26,7 @@ const BackToTop = () => {
 
   return (
     <div
-      className={`fixed bottom-5 right-5 flex flex-col items-center space-y-2 transition-opacity duration-300 ${
+      className={`fixed bottom-5 right-5 flex flex-col items-center transition-opacity duration-300 ${
         isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
       }`}
     >

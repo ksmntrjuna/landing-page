@@ -6,8 +6,8 @@ const LoadingIndicator = ({ progress }) => {
   const strokeDashoffset = circumference - (progress / 100) * circumference; // Menghitung nilai offset berdasarkan progres
 
   return (
-    <div className="fixed top-1/3 right-5 z-50 flex flex-col items-center space-y-4">
-      <div className="text-lg font-mono text-white">Progress...</div>
+    <div className="fixed top-1/3 right-5 z-50 flex flex-col items-center">
+      <div className=" font-mono text-white">Progress...</div>
       <svg
         className="w-24 h-24"
         width="120"

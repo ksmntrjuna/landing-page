@@ -10,7 +10,7 @@ function About() {
             style={{ backgroundImage: `url(${logoBg})` }}
           ></div>
 
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-8 text-black">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold font-mono mb-8 text-black">
             About Us
           </h2>
 

@@ -5,7 +5,6 @@ import profil3 from "../assets/profil3.jpg";
 
 
 function Testimonial() {
-  // Array berisi data testimoni
   const testimonials = [
     {
       name: "Satoru Gojo",
@@ -39,7 +38,7 @@ function Testimonial() {
       className="py-16 px-4 md:px-8"
     >
       <div className="container mx-auto text-center p-6">
-        <h2 className="text-4xl font-semibold mb-8">What Our Customers Say</h2>
+        <h2 className="text-4xl font-semibold font-mono mb-8">What Our Customers Say</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 place-items-center">
           {testimonials.map((testimonial, index) => (
             <StarItem

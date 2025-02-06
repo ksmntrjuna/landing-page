@@ -44,7 +44,7 @@ function App() {
 
   return (
     <div className="bg-linear-to-r/increasing from-indigo-500 to-teal-400 min-h-screen flex flex-col overflow-x-hidden relative">
-      {scrollProgress < 100 && <LoadingIndicator progress={scrollProgress} />}
+      {scrollProgress <= 100 && <LoadingIndicator progress={scrollProgress} />}
 
       <Header />
       <div id="hero">

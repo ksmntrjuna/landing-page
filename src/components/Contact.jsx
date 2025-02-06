@@ -34,7 +34,7 @@ function Contact() {
           </div>
           <button
             type="submit"
-            className="bg-green-600 text-white px-6 py-3 rounded-lg w-full sm:w-auto"
+            className="bg-blue-600 text-white px-6 py-3 rounded-lg w-full sm:w-auto"
           >
             Send Message
           </button>

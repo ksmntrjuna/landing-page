@@ -4,7 +4,7 @@ function Pricing() {
   return (
     <section id="pricing" className="py-16 px-4 md:px-8">
       <div className="container mx-auto text-center p-6">
-        <h2 className="text-4xl font-semibold mb-8">Pricing Plans</h2>
+        <h2 className="text-4xl font-semibold font-mono mb-8">Pricing Plans</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
           {/* Pricing Cards */}
           {pricingPlans.map((plan, index) => (
@@ -12,7 +12,7 @@ function Pricing() {
               key={index}
               className="bg-white shadow-lg rounded-lg p-6 flex flex-col h-full"
             >
-              <h3 className="text-xl font-semibold mb-4">{plan.title}</h3>
+              <h3 className="text-xl font-semibold font-mono mb-4">{plan.title}</h3>
               <p className="text-green-600 font-semibold mb-4">{plan.price}</p>
 
               {/* Features List */}
