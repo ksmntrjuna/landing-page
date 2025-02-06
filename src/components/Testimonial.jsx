@@ -1,4 +1,8 @@
 import StarItem from "./StarItem";
+import profil1 from "../assets/profil1.jpg";
+import profil2 from "../assets/profil2.jpg";
+import profil3 from "../assets/profil3.jpg";
+
 
 function Testimonial() {
   // Array berisi data testimoni
@@ -7,33 +11,36 @@ function Testimonial() {
       name: "Satoru Gojo",
       role: "CEO, Yowaimo Company",
       testimonial:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in arcu sapien. Vivamus varius erat ac erat auctor, non rhoncus erat vulputate. Duis ut odio sed odio condimentum elementum ut eu nulla.",
-      rating: 4, // Rating 4 bintang
-      image: "https://randomuser.me/api/portraits/women/1.jpg",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in arcu sapien. Vivamus varius erat ac erat auctor, non rhoncus erat vulputate.",
+      rating: 4,
+      image: profil1,
     },
     {
       name: "Rahmat Fushiguro",
       role: "Founder, Mahoraga Corp",
       testimonial:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in arcu sapien. Vivamus varius erat ac erat auctor, non rhoncus erat vulputate. Duis ut odio sed odio condimentum elementum ut eu nulla.",
-      rating: 3, // Rating 3 bintang
-      image: "https://randomuser.me/api/portraits/men/2.jpg",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in arcu sapien. Vivamus varius erat ac erat auctor, non rhoncus erat vulputate.",
+      rating: 3,
+      image: profil2,
     },
     {
       name: "Ryomen Sukuna",
       role: "CEO, Fukuma Mizushi",
       testimonial:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in arcu sapien. Vivamus varius erat ac erat auctor, non rhoncus erat vulputate. Duis ut odio sed odio condimentum elementum ut eu nulla. ",
-      rating: 5, // Rating 5 bintang
-      image: "https://randomuser.me/api/portraits/women/3.jpg",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in arcu sapien. Vivamus varius erat ac erat auctor, non rhoncus erat vulputate.",
+      rating: 5,
+      image: profil3,
     },
   ];
 
   return (
-    <section id="testimonials" className="py-16">
-      <div className="container mx-auto text-center px-4">
+    <section
+      id="testimonials"
+      className="py-16 px-4 md:px-8"
+    >
+      <div className="container mx-auto text-center p-6">
         <h2 className="text-4xl font-semibold mb-8">What Our Customers Say</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 place-items-center">
           {testimonials.map((testimonial, index) => (
             <StarItem
               key={index}

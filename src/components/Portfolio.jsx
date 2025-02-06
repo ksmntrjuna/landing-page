@@ -41,11 +41,11 @@ function Portfolio() {
       id="portfolio"
       className="py-16 px-4 md:px-8 border-b-2 border-t-2 border-white"
     >
-      <div className="container mx-auto text-center">
+      <div className="container mx-auto text-center p-6">
         <h2 className="text-4xl font-semibold mb-8 text-white">
           Our Portfolio
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6 place-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 place-items-center">
           {projects.map((project, index) => (
             <PortfolioItem
               key={index}

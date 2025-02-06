@@ -2,9 +2,9 @@ function Services() {
   return (
     <section
       id="services"
-      className="py-16 px-4 md:px-8 border-b-2 border-t-2 border-amber-300"
+      className="py-16 px-4 md:px-8"
     >
-      <div className="container mx-auto text-center">
+      <div className="container mx-auto text-center p-6">
         <h2 className="text-4xl font-semibold mb-8 text-white">Our Services</h2>
 
         {/* Grid untuk layanan */}
