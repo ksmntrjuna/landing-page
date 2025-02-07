@@ -20,7 +20,7 @@ function Hero() {
         </p>
         <a
           href="#services"
-          className="mt-6 inline-block border-white border-4 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 hover:scale-105 transform transition duration-300"
+          className="mt-6 inline-block border-white border-4 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 !hover:scale-105 transform transition duration-300"
         >
           Get Started
         </a>
