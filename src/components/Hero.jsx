@@ -6,7 +6,7 @@ function Hero() {
       <div className="container mx-auto text-center p-6">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold font-sans text-white">
           <Typewriter
-            words={["XSMNTR Kaisen."]}
+            words={["Your Company."]}
             loop={Infinity}
             cursor
             cursorStyle="_"

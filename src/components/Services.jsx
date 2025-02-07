@@ -44,7 +44,7 @@ function Services() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="shadow-lg border-white border-2 rounded-lg p-6 hover:scale-105 hover:shadow-xl hover:border-red-500 transition-all duration-300 transform relative overflow-hidden"
+              className="shadow-lg border-black border-2 rounded-lg p-6 hover:scale-105 hover:shadow-xl hover:border-white transition-all duration-300 transform relative overflow-hidden"
             >
               <div
                 className="absolute inset-0 bg-cover bg-center opacity-60"

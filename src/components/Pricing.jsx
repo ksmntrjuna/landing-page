@@ -10,9 +10,11 @@ function Pricing() {
           {pricingPlans.map((plan, index) => (
             <div
               key={index}
-              className="bg-white shadow-lg rounded-lg p-6 flex flex-col h-full"
+              className="bg-white shadow-lg rounded-lg p-6 flex flex-col h-full border-2 border-black"
             >
-              <h3 className="text-xl font-semibold font-mono mb-4">{plan.title}</h3>
+              <h3 className="text-xl font-semibold font-mono mb-4">
+                {plan.title}
+              </h3>
               <p className="text-green-600 font-semibold mb-4">{plan.price}</p>
 
               {/* Features List */}
@@ -31,7 +33,7 @@ function Pricing() {
               {/* Button - Always at the Bottom */}
               <a
                 href="#contact"
-                className="block bg-blue-600 text-white px-6 py-3 rounded-lg text-center mt-auto"
+                className="block bg-blue-600 text-white px-6 py-3 rounded-lg text-center mt-auto hover:bg-green-600 hover:text-black"
               >
                 Get Started
               </a>
