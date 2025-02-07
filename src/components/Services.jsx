@@ -1,4 +1,4 @@
-import bg1 from "../assets/bg1.jpg";
+import bg from "../assets/bg.jpg";
 
 function Services() {
   const services = [
@@ -6,31 +6,31 @@ function Services() {
       title: "Web & App Development",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales ornare aliquet.",
-      image: bg1,
+      image: bg,
     },
     {
       title: "UI/UX Design",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales ornare aliquet.",
-      image: bg1,
+      image: bg,
     },
     {
       title: "API & Backend Development",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales ornare aliquet.",
-      image: bg1,
+      image: bg,
     },
     {
       title: "Maintenance & Support",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales ornare aliquet.",
-      image: bg1,
+      image: bg,
     },
     {
       title: "Custom Solutions",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales ornare aliquet.",
-      image: bg1,
+      image: bg,
     },
   ];
 
