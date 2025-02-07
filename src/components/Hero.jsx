@@ -16,11 +16,11 @@ function Hero() {
           />
         </h1>
         <p className="mt-4 text-lg sm:text-xl lg:text-2xl font-mono">
-          "Building Apps, Perfecting Experiences"
+          Building Apps, Perfecting Experiences
         </p>
         <a
           href="#services"
-          className="mt-6 inline-block border-white border-4 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 !hover:scale-105 transform transition duration-300"
+          className="mt-6 inline-block border-white border-4 text-white px-6 py-3 rounded-lg font-semibold transform hover:bg-indigo-700 hover:scale-105 transition duration-300"
         >
           Get Started
         </a>
